@@ -23,7 +23,7 @@ The total cost of a prediction model the sum of Cost_1 multiplied by the number 
 2) No low-latency requirement.
 3) Interpretability is not important.
 4) misclassification leads the unecessary repair costs.
-5) 
+
 ## 3.2 Limitation and Future Work
 The limitations of ML model are:
 1) The target classes are highly imbalanced
