@@ -34,5 +34,27 @@ no. of data points in the negative class (majority class) very large compared to
 model.
 4) Hence we should handle imbalanced data with certain methods.
 
-### The future work of our ML model:
-The APS Fault detection model should be published on any deployment services like ASW EC2 where it can be updated in real time and can be viewed by users in a more convenient manner
+### Deployment
+
+#### Summary:
+
+1. ImportError: Resolved by importing the 'pandas' library at the beginning of the code.
+
+2. SyntaxError: Fixed by carefully reviewing and correcting any syntax mistakes in the code.
+
+3. ValueError: Handled by converting the target variable to the correct format, ensuring numeric values for binary classes.
+
+4. ValueError: Addressed by converting non-numeric columns to the 'category' data type.
+
+5. KeyError: Resolved by verifying the column names in the dataset and ensuring the target variable is correctly specified.
+
+6. MemoryError: Mitigated by optimizing memory usage through sparse data structures or working with smaller subsets of data.
+
+7. FileNotFoundError: Rectified by confirming the pickle file is saved at the correct location.
+
+8. Slow performance: Can be improved by optimizing code, data processing techniques, or considering more powerful hardware/cloud-based solutions.
+
+9. Deployment on Streamlit: Involves setting up a Streamlit application and integrating the model for predictions using Streamlit's tools and functions.
+
+By addressing these challenges, we successfully trained an XGBoost model, preprocessed the data, and saved it as a pickle file and deployed it on streamlit
+
